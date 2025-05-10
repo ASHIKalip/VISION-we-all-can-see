@@ -1,7 +1,12 @@
 # android_blind
 Application for Visually Impaired
+
 VISION – We all can SEE
+
 Application for Blind with Audio Inputs and Output 
+
+
+
 Ashik Ali Shaik
  College of Engineering and Computing
  George Mason University
