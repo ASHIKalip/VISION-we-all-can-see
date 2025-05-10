@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#54A854"
+    android:onClick="layoutClicked"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="#04BA04"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginLeft="25dp"
+            android:text="Registration"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btnSubmit"
+            android:layout_width="161dp"
+            android:layout_height="119dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/blind1" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginTop="50dp"
+            android:background="#BDFFA7"
+            android:fontFamily="sans-serif-light"
+            android:hint="Name"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="40dp"
+            android:background="#BDFFA7"
+            android:fontFamily="sans-serif-light"
+            android:hint="Age:- "
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/emerg"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="40dp"
+            android:background="#BDFFA7"
+            android:fontFamily="sans-serif-light"
+            android:hint="Emergency contact :- "
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:background="#BDFFA7"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:hint="Username:- "
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:background="#BDFFA7"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:hint="Password:- "
+            android:inputType="textPassword"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

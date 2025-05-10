@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1083532965790",
+    "firebase_url": "https://blind-project-fb9b1-default-rtdb.firebaseio.com",
+    "project_id": "blind-project-fb9b1",
+    "storage_bucket": "blind-project-fb9b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083532965790:android:6cfd97f391932c6c95888f",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083532965790-8sshn4depluvc9hj1781n2tp8d53l27g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhbAe5pxV81PfNpkUEB4lKigaZJsTszI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1083532965790-8sshn4depluvc9hj1781n2tp8d53l27g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

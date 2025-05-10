@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.tensorflow.lite.examples.detection">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blind1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/blind1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.ObjectDetection">
+
+        <activity
+            android:name=".Navigation.Navigation"
+            android:exported="true" />
+        <activity
+            android:name=".Navigation.MapsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QRProduct.QRresult"
+            android:exported="true" />
+        <activity
+            android:name=".Message.MessageReader"
+            android:exported="true" />
+        <activity
+            android:name=".Music.Music"
+            android:exported="true" />
+        <activity
+            android:name=".Login.Register"
+            android:exported="true" />
+
+        <activity
+            android:name=".Objectdetection.ObjectDetection"
+            android:exported="true" />
+        <activity
+            android:name=".Objectdetection.DetectorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Moneytransfer.phonetransfer"
+            android:exported="true" />
+        <activity
+            android:name=".Moneytransfer.Banktransfer"
+            android:exported="true" />
+        <activity
+            android:name=".Location.LocationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QRProduct.QRactivity"
+            android:exported="true" />
+        <activity
+            android:name=".Features"
+            android:exported="true" />
+        <activity
+            android:name=".Battery"
+            android:exported="true" />
+        <activity
+            android:name=".Weather"
+            android:exported="true" />
+        <activity
+            android:name=".DateAndTime"
+            android:exported="true" />
+        <activity
+            android:name=".Calculator"
+            android:exported="true" />
+        <activity
+            android:name=".OCRReader"
+            android:exported="true" />
+
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".Login.Loginuser"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Location.GetAllData" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAdz5sjzrAIjfg-L2pHZOqgjjpGN4vhkZM" />
+    </application>
+
+</manifest>

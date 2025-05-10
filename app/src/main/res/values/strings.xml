@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translation_description="Blind Helper">VISION</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="speech_prompt">say hello</string>
+    <string name="speech_not_supported">not supported</string>
+    <string name="editText_hint">Enter city name</string>
+    <string name="weather_img">weather image</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+    <string-array name="tfe_ic_models" translatable="false">
+        <item>Quantized_EfficientNet</item>
+        <item>Float_EfficientNet</item>
+        <item>Quantized_MobileNet</item>
+        <item>Float_MobileNet</item>
+    </string-array>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string name="batter_percentage">battery</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+    <string name="dummy_content">
+
+        Swipe Up/Down to Select\n\n
+        Double-Tap to Confirm \n\n
+        Long Press to Undo
+
+
+    </string>
+    <string name="features">
+        say <b>read</b> to read the text using camera.
+        \n Say <b>Object detection</b> to detect  the object.
+        \n say <b>Calculator</b> to perform mathematical calculations.
+        \n Say <b>Weather</b> to get weather details.
+        \n Say <b>Navigation</b> to navigate to the destination.
+        \n Say <b>Location</b> to get location details.
+        \n Say <b>Battery</b> to get battery percentage.
+        \n Say <b>Time and Date</b> for time and date.
+        \n Say <b>Music</b> to transfer the amount using phone number.
+         \n Say <b>Scan the qr</b> to open qr product identification.
+         \n Say <b>phone transfer</b> to transfer amount using phone number.
+         \n Say <b>bank transfer</b> to transfer amount using account number.
+        \n Say <b>back</b> to return to Home screen
+        \n Say <b>Exit </b> to close the application.
+    </string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+</resources>
