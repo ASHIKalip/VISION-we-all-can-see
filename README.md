@@ -173,20 +173,8 @@ Weather	0.740
 Battery	0.120
 Time/Date	0.90
 Table 1: Response Latency
-4.   Application View
- 
-Figure 1: Home Screen of the Application
- 
-Figure 2: Feature-Music
- 
-Figure 3: Feature-Time and Date
- 
-Figure 4: Feature-Weather
- 
-Figure 5: Feature-Battery Percentage
- 
-Figure 6: Application Icon
-5.   CONCLUSION
+
+
 In this work, we introduced VISION—We All Can SEE, a voice‐driven Android application designed to deliver eight key assistive and utility services—object detection, OCR text reading, location & navigation, weather updates, time & date, battery status, basic calculations, and music playback to users with visual impairments. By leveraging on‐device TensorFlow Lite for real‐time inference, Google ML Kit for robust OCR, Android’s native location and system APIs, MediaPlayer for audio control, and lightweight HTTP clients for weather data, VISION demonstrates that a single, unified interface can effectively replace multiple specialized tools.
 Our evaluation on a standard smartphone platform showed strong performance across all modules, with recognition accuracies above 95 % and end-to-end response latencies under 1.2 seconds even for compute-intensive object detection and music control commands. Pilot user feedback highlighted the clarity of spoken outputs, the intuitiveness of the command router, and the smooth integration of music playback within an assistive context. These results underscore VISION’s feasibility as a practical, low-cost assistive solution.
 Moving forward, we plan to broaden VISION’s capabilities by integrating more advanced navigation (e.g., indoor wayfinding), enhancing speech recognition robustness in noisy environments, and incorporating machine-learning-driven personalization to adapt to individual user preferences and contexts. Crucially, VISION will be released as an open-source project inviting developers, researchers, and end users to customize the app according to their needs, contribute improvements to accessibility, add new features (such as streaming services or personalized playlists), and help make the application even more powerful and user-friendly. We also aim to conduct a larger-scale user study to quantitatively assess VISION’s impact on day-to-day independence and quality of life.
