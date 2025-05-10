@@ -1,4 +1,4 @@
-# android_blind
+# Android Application with Added Features for Visually Impaired People 
 Application for Visually Impaired
 
 VISION – We all can SEE
